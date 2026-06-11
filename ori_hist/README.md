@@ -3,13 +3,13 @@
 `ori_hist` is a fine-tuned Tesseract 5 LSTM model for OCR of Odia text printed in
 19th- and early 20th-century letterpress typefaces. It was developed by
 [Subhashish Panigrahi](https://github.com/psubhashish) and the
-[O Foundation (OFDN)](https://theofdn.org) as part of a project to make pre-independence
-Odia documents — newspapers, religious texts, government records — machine-readable.
+[O Foundation (OFDN)](https://theofdn.org) as part of a project to make historical
+Odia documents -- newspapers, magazine, early science literature, government records and even religious texts -- machine-readable.
 
 The existing `ori` model (last updated 2017) was trained on modern digital Odia fonts
 with clean, uniform strokes. It fails on letterpress material because letterpress
 fonts have ink spread at stroke intersections, slightly irregular baselines, and
-historically distinct letterform shapes, especially in conjuncts and matras.
+historically distinct letterform shapes, especially in conjuncts and matras. This was the basis of building the [Chapakala](https://github.com/ofdn/Chapakala) typeface revival project. The first set of training was done with [Chapakala 19](https://github.com/ofdn/Chapakala/tree/main/19), an open source typeface designed by Panigrahi between 2024 and 2026.
 
 ## Training
 
